@@ -4,7 +4,6 @@ export const handler = async(event) => {
     log("Log de execucao dentro do handler" + JSON.stringify(event))
     return {
         statusCode: 200,
-        body: JSON.stringify(event)
-    
+        body: JSON.stringify(event),
     }
 };
